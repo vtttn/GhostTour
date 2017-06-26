@@ -8,3 +8,8 @@ body {
 btn-group-lg>.btn, .btn-lg {
     font-size: 14px;
 }
+
+.home_tour_img {
+	width: 100%; 
+	display: block;
+}
