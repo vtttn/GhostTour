@@ -11,11 +11,6 @@ Ghost Tour list (about 5-8)(drop down menu!)
 
 Photo Gallery w/ lightbox
 
-Contact us (form to fill out)
-
 Feedback/reviews (wysiwyg text editor)
 
-
-ref:
-https://ghostcitytours.com/contact/
-https://ghostcitytours.com/new-orleans/haunted-places/
+Contact us (form to fill out)
