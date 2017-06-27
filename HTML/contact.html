@@ -73,24 +73,27 @@
 
 		<div class="container">
 	<!-- form -->
-			<form>
-				<div class="form-group">
-				    <label for="inputPassword3" class="col-sm-offset-3 col-sm-6 control-label">Name</label>
-				    <div class="col-sm-offset-3 col-sm-6">
-						<input type="text" class="form-control" id="inputName" placeholder="First and Last Name">
-				    </div>
-			  </div>
-			  <div class="form-group ">
-				    <label for="inputEmail3" class="col-sm-offset-3 col-sm-6 control-label">Email</label>
-				    <div class="col-sm-offset-3 col-sm-6">
-					      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-				    </div>
-			  </div>
-			  <div class="form-group">
-				    <div class="col-sm-offset-3 col-sm-6">
-				      <button type="submit" class="btn btn-default">Submit</button>
-				    </div>
-			  </div>
+			<form id="contact" data-parsley-validate="">
+				<div class="form-group col-sm-offset-3 col-sm-6">
+				    <label class="control-label">Name</label>
+					<input type="text" class="form-control" id="inputName" placeholder="First and Last Name" data-parsley-trigger="change" required="" data-parsley-required-message="Please provide your name">
+			  	</div>
+			  	<div class="form-group col-sm-offset-3 col-sm-6">
+				    <label class="control-label">Email</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-parsley-type="email" data-parsley-error-message="Please provide a valid email address">
+			  	</div>
+			  	<div class="form-group col-sm-offset-3 col-sm-6">
+				    <label class="control-label">Phone Number</label>
+					<input type="tel" class="form-control" id="inputPhone" placeholder="000-000-000" >
+			  	</div>
+			  	<div class="form-group col-sm-offset-3 col-sm-6">
+			  		<label class="control-label">Comments</label>
+			  		<p>Any Questions, Comments? Please mention the tour you're interested in.</p>
+					<textarea class="form-control" rows="3"></textarea>
+			  	</div>
+			  	<div class="form-group col-sm-offset-3 col-sm-6">
+				      <button type="submit" class="btn btn-default" value="validate">Submit</button>
+			  	</div>
 			</form>
 		</div> <!-- end form container -->
 
@@ -100,6 +103,9 @@
 		<!-- Jquery -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+		<!-- Parsley JavaScript -->
+		<script type="text/javascript" src="../Scripts/parsley.min.js"></script>
 
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
