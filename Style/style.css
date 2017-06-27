@@ -2,14 +2,18 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
-}
+};
 
 
 btn-group-lg>.btn, .btn-lg {
     font-size: 14px;
-}
+};
 
 .home_tour_img {
 	width: 100%; 
 	display: block;
-}
+};
+
+/*@media (max-width: 400px) { 
+	$('.gallery_img').addClass('col-xs-12');
+ }*/
