@@ -271,6 +271,13 @@ p.tour.lead {
 	border: none; 
 }
 
+.thumbnail a>img, .thumbnail>img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/*Tour Page */
+
 .tour.col-lg-5 h3{
 	color: grey;
 
