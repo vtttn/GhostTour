@@ -6,6 +6,7 @@ html {
 	height: 100%;
 }
 
+
 body {
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
@@ -13,7 +14,21 @@ body {
 	color: #fff;
 }
 
+
 body.subpage {
+	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
+	height: 100%;
+	background-color: white;
+}
+
+/*.tour-page{
+	padding-top: 50px;  mmove down content b/c of 50px tall fixed nav 
+	height: 100%;
+	background-color: grey;
+} */ 
+
+.subpage {
+
 	padding-top: 50px;
 }
 
@@ -21,6 +36,11 @@ body.subpage {
 
 .navbar-inverse {
 	background: none;
+	border: none;
+}
+
+.tour-page .navbar-inverse {
+	background: #333;
 	border: none;
 }
 
@@ -56,7 +76,7 @@ body.subpage {
 
 }
 
-.jumbotron h1 {
+.index.jumbotron h1 {
 	color: #fff;
 	font-family: 'Crimson Text', serif;
 	text-transform: uppercase;
@@ -67,7 +87,11 @@ body.subpage {
 
 }
 
-.jumbotron h3 {
+.index.jumbotron h1 span {
+	margin-left: -10px;
+}
+
+.index.jumbotron h3 {
 	color: #fff;
 	font-weight: 10;
 }
@@ -75,6 +99,50 @@ body.subpage {
 /* media to responsive scale header text */
 
 @media (max-width: 1200px) {
+<<<<<<< HEAD
+  .index.jumbotron h1{
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .index.jumbotron h1{
+    font-size: 100px;
+  }
+   .index.junbotron h3{
+  	font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .index.jumbotron h1{
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 750px) {
+  .index.jumbotron h3{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .index.jumbotron h1{
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 550px) {
+  .index.jumbotron h1{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .index.jumbotron h3{
+    font-size: 16px;
+  }
+=======
 	.jumbotron h1{
 		font-size: 120px;
 	}
@@ -160,12 +228,88 @@ div:focus {
 	outline: none;
 }
 
-/* photo gallery */
+
+.tour.jumbotron {
+	border-radius: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+	height: auto;
+	background-image: url(../images/default-7.jpg);
+	background-size: cover;
+	width: auto;
+}
+
+.tour.jumbotron h1 {
+	color: #fff;
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+	font-size: 130px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 70%;
+	padding-top: 60px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+.tour.jumbotron span {
+	margin-left: 33px;
+}
+
+p.tour.lead {
+	color: white;
+	text-align: center;
+	font-weight: 100px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+
+.tour.col-lg-5 {
+	background-color: white;
+}
 
 .thumbnail.img_gallery{
 	background: none; 
 	border: none; 
 }
+
+.tour.col-lg-5 h3{
+
+}
+
+.tour.col-lg-5#right {
+	float: right;
+}
+
+@media (max-width: 1200px) {
+  .tour.jumbotron h1{
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tour.jumbotron h1{
+    font-size: 100px;
+  }
+   .tour.junbotron h3{
+  	font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .tour.jumbotron h1{
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 750px) {
+	.tour.jumbotron h3{
+    font-size: 20px;
+  }
+}
+
 
 /* carousel */
 
@@ -186,6 +330,25 @@ div#carousel.container{
 
 ol.carousel-indicators {
 	margin-bottom: 0px;
+}
+
+
+@media (max-width: 650px) {
+  .tour.jumbotron h1{
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tour.jumbotron h1{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tour.jumbotron h3{
+    font-size: 16px;
+  }
 }
 
 
