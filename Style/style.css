@@ -26,6 +26,7 @@ body.tour{
 	background-color: grey;
 } */ 
 .subpage {
+
 	padding-top: 50px;
 }
 
@@ -194,7 +195,7 @@ body.tour{
 		border-color: #fff;
 }
 
-
+/* page stylization */
 
 /* Tours */
 
@@ -220,7 +221,7 @@ body.tour{
 
 /* global links */
 div:focus {
-outline: none;
+	outline: none;
 }
 
 .tour.jumbotron {
@@ -262,6 +263,7 @@ p.tour.lead {
 
 .tour.col-lg-5 {
 	background-color: white;
+}
 
 /* photo gallery */
 
@@ -306,6 +308,29 @@ p.tour.lead {
   }
 }
 
+
+/* carousel */
+
+div#carousel.container{
+	padding: 30px 50px;
+
+}
+
+.carousel-control.left {
+	width: 5%;
+	background-image: none;
+}
+
+.carousel-control.right {
+	width: 5%;
+	background-image: none;
+}
+
+ol.carousel-indicators {
+	margin-bottom: 0px;
+}
+
+
 @media (max-width: 650px) {
   .tour.jumbotron h1{
     font-size: 70px;
@@ -325,3 +350,14 @@ p.tour.lead {
 }
 
 
+/* wysiwyg */
+
+div.wysiwyg{
+	padding: 0px 100px;
+}
+
+/* Footer */
+footer{
+	text-align: center;
+	margin-top: 75px;
+}
