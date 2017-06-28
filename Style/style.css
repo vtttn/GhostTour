@@ -1,17 +1,75 @@
+
 /* dont do semicolons at the end of each stylizing. this isnt js, you dummy */
 
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+html {
+  height: 100%;
 }
+
+body {
+  padding-top: 50px; /* mmove down content b/c of 50px tall fixed nav */
+  height: 100%;
+  background-color: #333;
+}
+
+/* Header */
 
 .btn-group-lg>.btn, .btn-lg { 
-    font-size: 20px;
+    font-size: 16px;
 }
 
-.home_tour_img {
-	width: 100%; 
-	/*display: block;*/
+
+.home_banner {
+	background-image: url(../Images/new-orleans-cemetery-tours.jpg);
+	background-size: cover;
+	background-position: center;
+  box-shadow: inset 0 0 0 1000px rgba(80,19,24,.5);
+  height: 100%;
+  width: auto;
+
 }
+
+.jumbotron h1 {
+  color: #fff;
+  font-family: 'Crimson Text', serif;
+  text-transform: uppercase;
+  font-size: 150px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 70%;
+
+}
+
+.jumbotron h3 {
+  color: #fff;
+  font-weight: 10;
+}
+
+
+/* Tours */
+
+.home_tour_img {
+  width: 100%; 
+  /*display: block;*/
+}
+
+.home_tour {
+  padding: 50px;
+}
+
+.tours_ind {
+    background-color: #e0e0e0;
+    border: none;
+/*    border-radius: 2px;*/
+}
+
+
+/* global links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+
