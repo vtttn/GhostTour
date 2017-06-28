@@ -185,15 +185,36 @@ body.tour{
 
 
 /* header button */
-.jumbotron .btn-group-lg>.btn, .btn-lg {
+.head-btn>.btn, .btn-lg {
 		border-radius: 3px;
 }
 
-.jumbotron .btn-primary {
-		color: #fff;
-		background: none;
-		border-color: #fff;
+.head-btn {
+	color: #fff;
+	background: none;
+	border-color: #fff;
 }
+
+.head-btn:hover {
+	background-color: rgba(255, 255, 255,.1);
+	border-color: #fff;
+}
+
+/* index tour button */
+
+.index-detail-btn {
+	background-color: #8e222b;
+	border: none;	
+}
+
+.index-detail-btn:hover{
+	background-color: #501318;
+}
+
+.index-book-btn:hover {
+	background-color: #ebebeb;
+}
+
 
 
 /* Tours */
