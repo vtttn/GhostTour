@@ -13,7 +13,7 @@ body {
 	color: #fff;
 }
 
-.subpage {
+body.subpage {
 	padding-top: 50px;
 }
 
@@ -131,7 +131,7 @@ body {
 		border-color: #fff;
 }
 
-
+/* page stylization */
 
 /* Tours */
 
@@ -157,7 +157,7 @@ body {
 
 /* global links */
 div:focus {
-outline: none;
+	outline: none;
 }
 
 /* photo gallery */
@@ -167,5 +167,36 @@ outline: none;
 	border: none; 
 }
 
+/* carousel */
+
+div#carousel.container{
+	padding: 30px 50px;
+
+}
+
+.carousel-control.left {
+	width: 5%;
+	background-image: none;
+}
+
+.carousel-control.right {
+	width: 5%;
+	background-image: none;
+}
+
+ol.carousel-indicators {
+	margin-bottom: 0px;
+}
 
 
+/* wysiwyg */
+
+div.wysiwyg{
+	padding: 0px 100px;
+}
+
+/* Footer */
+footer{
+	text-align: center;
+	margin-top: 75px;
+}
