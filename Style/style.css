@@ -156,10 +156,8 @@ body {
 
 
 /* global links */
-a,
-a:focus,
-a:hover {
-	color: #fff;
+div:focus {
+outline: none;
 }
 
 /* photo gallery */

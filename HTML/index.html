@@ -18,7 +18,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
 
 		<!-- Lightbox CSS -->
-		<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+		<link rel="stylesheet" href="../Style/blueimp-gallery.min.css">
 
 
 	</head>
@@ -70,11 +70,13 @@
 			<div class="container">
 			<h1>The <br> Confederated<br> Dead</h1>
 			<h3>insert something snazzy here</h3>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button">Book a Tour &raquo;</a></p>
+			<p><a class="btn btn-primary btn-lg scroll" href="#tours" role="button">Book a Tour &raquo;</a></p>
 			</div>
 		</div>
 
-		<div class="container home_tour">
+		<!-- Tour List -->
+
+		<div class="container home_tour" id="tours">
 			<!-- first row of tours -->
 		<div class="row">
 			<div class="col-sm-6 col-md-4">
@@ -161,6 +163,46 @@
 		<!-- Custom JavaScript -->
 		<script type="text/javascript" src="../Scripts/script.js"></script>
 
+
+		<!-- In-page Anchor Smooth Scrolling -->
+
+		<script type="text/javascript">
+			$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+		</script>
 
 	</body>
 

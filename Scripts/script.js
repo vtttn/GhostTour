@@ -40,8 +40,3 @@ var target = event.target || event.srcElement,
     links = this.getElementsByTagName('a');
 blueimp.Gallery(links, options);
 };
-
-
-// console.log($('.parsley-required').html());
-
-
