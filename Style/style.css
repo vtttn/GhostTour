@@ -11,13 +11,13 @@ body {
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
 	background-color: #333;
-	color: #fff;
+	color: black;
 }
 
 body.tour{
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
-	background-color: white;
+	background-color: #333;
 }
 
 /*.tour-page{
@@ -231,6 +231,7 @@ div:focus {
 	background-image: url(../images/default-7.jpg);
 	background-size: cover;
 	width: auto;
+	box-shadow: inset 0 0 0 1000px rgba(80,19,24,.5);
 }
 
 .tour.jumbotron h1 {
@@ -251,6 +252,11 @@ div:focus {
 	margin-left: 33px;
 }
 
+.tour.jumbotron span.phantoms {
+	line-height: 1.08;
+	margin-left: 4px;
+}
+
 p.tour.lead {
 	color: white;
 	text-align: center;
@@ -262,9 +268,9 @@ p.tour.lead {
 
 .tour.col-lg-5 {
 	background-color: white;
+	border-radius: 6px;
 }
 
-/* photo gallery */
 
 .thumbnail.img_gallery {
 	background: none; 
