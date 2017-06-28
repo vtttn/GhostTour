@@ -148,7 +148,7 @@ body.tour{
 	.jumbotron h1{
 		font-size: 100px;
 	}
-	 .junbotron h3{
+	 .jumbotron h3{
 		font-size: 20px;
 	}
 }
@@ -195,7 +195,6 @@ body.tour{
 		border-color: #fff;
 }
 
-/* page stylization */
 
 /* Tours */
 
@@ -219,7 +218,7 @@ body.tour{
 }
 
 
-/* global links */
+
 div:focus {
 	outline: none;
 }
@@ -312,7 +311,7 @@ p.tour.lead {
 /* carousel */
 
 div#carousel.container{
-	padding: 30px 50px;
+	padding: 50px 50px;
 
 }
 
