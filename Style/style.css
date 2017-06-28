@@ -1,5 +1,5 @@
 
-/* dont do semicolons at the end of each stylizing. this isnt js, you dummy */
+/* dont do semicolons at the end of each stylizing. this isnt js */
 
 
 html {
@@ -10,9 +10,12 @@ body {
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
 	background-color: #333;
+	color: #fff;
 }
 
-
+.subpage {
+	padding-top: 50px;
+}
 
 /* Navigation */
 
@@ -22,18 +25,18 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-     color: #ebebeb; 
+		 color: #ebebeb; 
 }
 
 .navbar-inverse .navbar-toggle {
-    border: none;
+		border: none;
 }
 
 .navbar-inverse 
 .navbar-toggle:focus, 
 .navbar-inverse 
 .navbar-toggle:hover {
-  background: none;
+	background: none;
 }
 
 /* Header */
@@ -72,48 +75,60 @@ body {
 /* media to responsive scale header text */
 
 @media (max-width: 1200px) {
-  .jumbotron h1{
-    font-size: 120px;
-  }
+	.jumbotron h1{
+		font-size: 120px;
+	}
 }
 
 @media (max-width: 1000px) {
-  .jumbotron h1{
-    font-size: 100px;
-  }
-   .junbotron h3{
-  	font-size: 20px;
-  }
+	.jumbotron h1{
+		font-size: 100px;
+	}
+	 .junbotron h3{
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 750px) {
-  .jumbotron h1{
-    font-size: 90px;
-  }
+	.jumbotron h1{
+		font-size: 90px;
+	}
 }
 
 @media (max-width: 750px) {
-  .jumbotron h3{
-    font-size: 20px;
-  }
+	.jumbotron h3{
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 650px) {
-  .jumbotron h1{
-    font-size: 70px;
-  }
+	.jumbotron h1{
+		font-size: 70px;
+	}
 }
 
 @media (max-width: 550px) {
-  .jumbotron h1{
-    font-size: 50px;
-  }
+	.jumbotron h1{
+		font-size: 50px;
+	}
 }
 
 @media (max-width: 550px) {
-  .jumbotron h3{
-    font-size: 16px;
-  }
+	.jumbotron h3{
+		font-size: 16px;
+	}
+}
+
+
+/* header button */
+.jumbotron .btn-group-lg>.btn, .btn-lg {
+		border-radius: 3px;
+}
+
+.jumbotron .btn-primary {
+		color: #fff;
+		background: none;
+		border-color: #fff;
 }
 
 
@@ -135,6 +150,10 @@ body {
 /*    border-radius: 2px;*/
 }
 
+.thumbnail{
+	border-radius: 2px;
+}
+
 
 /* global links */
 a,
@@ -143,6 +162,12 @@ a:hover {
 	color: #fff;
 }
 
+/* photo gallery */
+
+.thumbnail.img_gallery{
+	background: none; 
+	border: none; 
+}
 
 
 
