@@ -14,7 +14,6 @@ body {
 	color: #fff;
 }
 
-<<<<<<< HEAD
 body.tour{
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
@@ -26,11 +25,9 @@ body.tour{
 	height: 100%;
 	background-color: grey;
 } */ 
-=======
 .subpage {
 	padding-top: 50px;
 }
->>>>>>> master
 
 /* Navigation */
 
@@ -99,7 +96,6 @@ body.tour{
 /* media to responsive scale header text */
 
 @media (max-width: 1200px) {
-<<<<<<< HEAD
   .index.jumbotron h1{
     font-size: 120px;
   }
@@ -142,7 +138,6 @@ body.tour{
   .index.jumbotron h3{
     font-size: 16px;
   }
-=======
 	.jumbotron h1{
 		font-size: 120px;
 	}
@@ -197,7 +192,6 @@ body.tour{
 		color: #fff;
 		background: none;
 		border-color: #fff;
->>>>>>> master
 }
 
 
@@ -229,7 +223,6 @@ div:focus {
 outline: none;
 }
 
-<<<<<<< HEAD
 .tour.jumbotron {
 	border-radius: 0px;
 	padding-left: 60px;
@@ -270,16 +263,15 @@ p.tour.lead {
 .tour.col-lg-5 {
 	background-color: white;
 
-=======
 /* photo gallery */
 
-.thumbnail.img_gallery{
+.thumbnail.img_gallery {
 	background: none; 
 	border: none; 
->>>>>>> master
 }
 
 .tour.col-lg-5 h3{
+	color: grey;
 
 }
 
