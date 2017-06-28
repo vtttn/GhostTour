@@ -6,18 +6,34 @@ html {
 	height: 100%;
 }
 
+
 body {
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
 	background-color: #333;
 }
 
+body.tour{
+	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
+	height: 100%;
+	background-color: white;
+}
 
+/*.tour-page{
+	padding-top: 50px;  mmove down content b/c of 50px tall fixed nav 
+	height: 100%;
+	background-color: grey;
+} */ 
 
 /* Navigation */
 
 .navbar-inverse {
 	background: none;
+	border: none;
+}
+
+.tour-page .navbar-inverse {
+	background: #333;
 	border: none;
 }
 
@@ -53,7 +69,7 @@ body {
 
 }
 
-.jumbotron h1 {
+.index.jumbotron h1 {
 	color: #fff;
 	font-family: 'Crimson Text', serif;
 	text-transform: uppercase;
@@ -64,7 +80,11 @@ body {
 
 }
 
-.jumbotron h3 {
+.index.jumbotron h1 span {
+	margin-left: -10px;
+}
+
+.index.jumbotron h3 {
 	color: #fff;
 	font-weight: 10;
 }
@@ -72,46 +92,46 @@ body {
 /* media to responsive scale header text */
 
 @media (max-width: 1200px) {
-  .jumbotron h1{
+  .index.jumbotron h1{
     font-size: 120px;
   }
 }
 
 @media (max-width: 1000px) {
-  .jumbotron h1{
+  .index.jumbotron h1{
     font-size: 100px;
   }
-   .junbotron h3{
+   .index.junbotron h3{
   	font-size: 20px;
   }
 }
 
 @media (max-width: 750px) {
-  .jumbotron h1{
+  .index.jumbotron h1{
     font-size: 90px;
   }
 }
 
 @media (max-width: 750px) {
-  .jumbotron h3{
+  .index.jumbotron h3{
     font-size: 20px;
   }
 }
 
 @media (max-width: 650px) {
-  .jumbotron h1{
+  .index.jumbotron h1{
     font-size: 70px;
   }
 }
 
 @media (max-width: 550px) {
-  .jumbotron h1{
+  .index.jumbotron h1{
     font-size: 50px;
   }
 }
 
 @media (max-width: 550px) {
-  .jumbotron h3{
+  .index.jumbotron h3{
     font-size: 16px;
   }
 }
@@ -143,6 +163,99 @@ a:hover {
 	color: #fff;
 }
 
+.tour.jumbotron {
+	border-radius: 0px;
+	padding-left: 60px;
+	padding-right: 60px;
+	height: auto;
+	background-image: url(../images/default-7.jpg);
+	background-size: cover;
+	width: auto;
+}
 
+.tour.jumbotron h1 {
+	color: #fff;
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+	font-size: 130px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 70%;
+	padding-top: 60px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+.tour.jumbotron span {
+	margin-left: 33px;
+}
+
+p.tour.lead {
+	color: white;
+	text-align: center;
+	font-weight: 100px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+
+.tour.col-lg-5 {
+	background-color: white;
+
+}
+
+.tour.col-lg-5 h3{
+
+}
+
+.tour.col-lg-5#right {
+	float: right;
+}
+
+@media (max-width: 1200px) {
+  .tour.jumbotron h1{
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tour.jumbotron h1{
+    font-size: 100px;
+  }
+   .tour.junbotron h3{
+  	font-size: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .tour.jumbotron h1{
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 750px) {
+	.tour.jumbotron h3{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .tour.jumbotron h1{
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tour.jumbotron h1{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .tour.jumbotron h3{
+    font-size: 16px;
+  }
+}
 
 
