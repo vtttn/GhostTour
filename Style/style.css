@@ -1,5 +1,5 @@
 
-/* dont do semicolons at the end of each stylizing. this isnt js, you dummy */
+/* dont do semicolons at the end of each stylizing. this isnt js */
 
 
 html {
@@ -11,8 +11,10 @@ body {
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
 	background-color: #333;
+	color: #fff;
 }
 
+<<<<<<< HEAD
 body.tour{
 	/*padding-top: 50px;  mmove down content b/c of 50px tall fixed nav */
 	height: 100%;
@@ -24,6 +26,11 @@ body.tour{
 	height: 100%;
 	background-color: grey;
 } */ 
+=======
+.subpage {
+	padding-top: 50px;
+}
+>>>>>>> master
 
 /* Navigation */
 
@@ -38,18 +45,18 @@ body.tour{
 }
 
 .navbar-inverse .navbar-nav>li>a {
-     color: #ebebeb; 
+		 color: #ebebeb; 
 }
 
 .navbar-inverse .navbar-toggle {
-    border: none;
+		border: none;
 }
 
 .navbar-inverse 
 .navbar-toggle:focus, 
 .navbar-inverse 
 .navbar-toggle:hover {
-  background: none;
+	background: none;
 }
 
 /* Header */
@@ -92,6 +99,7 @@ body.tour{
 /* media to responsive scale header text */
 
 @media (max-width: 1200px) {
+<<<<<<< HEAD
   .index.jumbotron h1{
     font-size: 120px;
   }
@@ -134,6 +142,62 @@ body.tour{
   .index.jumbotron h3{
     font-size: 16px;
   }
+=======
+	.jumbotron h1{
+		font-size: 120px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.jumbotron h1{
+		font-size: 100px;
+	}
+	 .junbotron h3{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 750px) {
+	.jumbotron h1{
+		font-size: 90px;
+	}
+}
+
+@media (max-width: 750px) {
+	.jumbotron h3{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 650px) {
+	.jumbotron h1{
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 550px) {
+	.jumbotron h1{
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 550px) {
+	.jumbotron h3{
+		font-size: 16px;
+	}
+}
+
+
+/* header button */
+.jumbotron .btn-group-lg>.btn, .btn-lg {
+		border-radius: 3px;
+}
+
+.jumbotron .btn-primary {
+		color: #fff;
+		background: none;
+		border-color: #fff;
+>>>>>>> master
 }
 
 
@@ -155,14 +219,17 @@ body.tour{
 /*    border-radius: 2px;*/
 }
 
-
-/* global links */
-a,
-a:focus,
-a:hover {
-	color: #fff;
+.thumbnail{
+	border-radius: 2px;
 }
 
+
+/* global links */
+div:focus {
+outline: none;
+}
+
+<<<<<<< HEAD
 .tour.jumbotron {
 	border-radius: 0px;
 	padding-left: 60px;
@@ -203,6 +270,13 @@ p.tour.lead {
 .tour.col-lg-5 {
 	background-color: white;
 
+=======
+/* photo gallery */
+
+.thumbnail.img_gallery{
+	background: none; 
+	border: none; 
+>>>>>>> master
 }
 
 .tour.col-lg-5 h3{

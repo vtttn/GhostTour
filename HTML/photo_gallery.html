@@ -14,10 +14,16 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="../Style/style.css">
 
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+
+		<!-- Lightbox CSS -->
+		<link rel="stylesheet" href="../Style/blueimp-gallery.min.css">
+
 
 	</head>
 
-	<body>
+	<body class="subpage">
 
 	<!-- Navigation -->
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -60,45 +66,55 @@
 
 
 
-	<div>
-
-	<h1>grid photo gallery w/ lightbox</h1>
+	<div class="container">
+		<h3>Photo Gallery</h1>
 	</div>
+
+		<!-- Lightbox Photo Gallery -->
+
+
+		<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+			<div class="slides"></div>
+			<h3 class="title"></h3>
+			<a class="prev">‹</a>
+			<a class="next">›</a>
+			<a class="close">×</a>
+			<a class="play-pause"></a>
+			<ol class="indicator"></ol>
+		</div>
+
+		<!-- Start of Gallery -->
 
 
 		<div class="container gallery">
 			
 
-			<div class="row">
+			<div id="links" class="row">
 				<div class="col-xs-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 gallery_img">
-					<a href="#" class="thumbnail">
-						<img src="../Images/img_holder.png" alt="...">
+					<a href="../Images/img_holder.png" class="thumbnail img_gallery">
+						<img src="../Images/img_holder.png" alt="image1">
 					</a>
 				</div>
 				<div class="col-xs-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 gallery_img">
-					<a href="#" class="thumbnail">
-						<img src="../Images/img_holder.png" alt="...">
+					<a href="#" class="thumbnail img_gallery">
+						<img src="../Images/img_holder.png" alt="image2">
 					</a>
 				</div>
 				<div class="col-xs-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 gallery_img">
-					<a href="#" class="thumbnail">
-						<img src="../Images/img_holder.png" alt="...">
+					<a href="#" class="thumbnail img_gallery">
+						<img src="../Images/img_holder.png" alt="image3">
 					</a>
 				</div>
 				<div class="col-xs-12 col-xs-6 col-sm-4 col-md-3 col-lg-3 gallery_img">
-					<a href="#" class="thumbnail">
-						<img src="../Images/img_holder.png" alt="...">
+					<a href="#" class="thumbnail img_gallery">
+						<img src="../Images/img_holder.png" alt="image4">
 					</a>
 				</div>
 				<!-- how do i do a load more? oooo -->
 
 			</div> <!-- end row -->
 
-
-
-
-		</div> <!-- end container -->
-
+		</div> <!-- / gallery container -->
 
 
 
@@ -111,6 +127,9 @@
 
 		<!-- Custom JavaScript -->
 		<script type="text/javascript" src="../Scripts/script.js"></script>
+
+		<!-- Gallery JavaScript -->
+		<script src="../Scripts/blueimp-gallery.min.js"></script>
 
 
 	</body>
