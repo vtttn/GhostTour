@@ -277,7 +277,7 @@ p.tour.lead {
 	border: none; 
 }
 
-.thumbnail a>img, .thumbnail>img {
+.gallery_img a>img, .gallery_img >img {
     height: 200px;
     object-fit: cover;
 }
