@@ -193,11 +193,18 @@ body.tour{
 	color: #fff;
 	background: none;
 	border-color: #fff;
+	text-align: center;
 }
 
-.head-btn:hover {
+.head-btn:hover, 
+.head-btn:active, 
+.head-btn:focus, 
+.head-btn.active:focus,
+.head-btn:active.focus,
+.head-btn:active:focus{
 	background-color: rgba(255, 255, 255,.1);
 	border-color: #fff;
+	outline:none;
 }
 
 /* index tour button */
