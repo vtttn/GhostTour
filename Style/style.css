@@ -30,6 +30,14 @@ body.tour{
 	padding-top: 50px;
 }
 
+.subpage h3{
+	color: #e0e0e0;
+}
+
+.contact{
+	color: #e0e0e0;
+}
+
 /* Navigation */
 .navbar-fixed-top {
 	position: absolute;
@@ -61,6 +69,12 @@ body.tour{
 
 .navbar-inverse .navbar-brand {
 	color: #e6e6e6;
+}
+
+a.navbar-brand{
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
 /* Header */
@@ -232,11 +246,6 @@ body.tour{
 
 /* Tours */
 
-.home_tour_img {
-	width: 100%; 
-	/*display: block;*/
-}
-
 .home_tour {
 	padding: 50px;
 }
@@ -247,8 +256,11 @@ body.tour{
 /*    border-radius: 2px;*/
 }
 
-.thumbnail{
+img.home_tour_img{
 	border-radius: 2px;
+	object-fit: cover;
+	width: 100%;
+	height: 250px;
 }
 
 
@@ -330,11 +342,18 @@ p.tour.lead {
 
 }
 
-.tour.col-lg-5 {
+div.subtour{
 	background-color: white;
 	border-radius: 6px;
 }
 
+.subtour h3{
+	font-family: 'Crimson Text', serif;
+	font-weight: 600;
+	color: #333;
+}
+
+/* gallery */
 
 .thumbnail.img_gallery {
 	background: none; 
