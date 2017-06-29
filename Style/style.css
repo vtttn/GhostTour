@@ -31,7 +31,9 @@ body.tour{
 }
 
 /* Navigation */
-
+.navbar-fixed-top {
+	position: absolute;
+}
 .navbar-inverse {
 	background: none;
 	border: none;
@@ -86,7 +88,7 @@ body.tour{
 }
 
 .index.jumbotron h1 span {
-	margin-left: -10px;
+	margin-left: -43px;
 }
 
 .index.jumbotron h3 {
@@ -350,34 +352,6 @@ p.tour.lead {
 .tour.col-lg-5#right {
 	float: right;
 }
-
-@media (max-width: 1200px) {
-  .tour.jumbotron h1{
-    font-size: 120px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .tour.jumbotron h1{
-    font-size: 100px;
-  }
-   .tour.junbotron h3{
-  	font-size: 20px;
-  }
-}
-
-@media (max-width: 750px) {
-  .tour.jumbotron h1{
-    font-size: 90px;
-  }
-}
-
-@media (max-width: 750px) {
-	.tour.jumbotron h3{
-    font-size: 20px;
-  }
-}
-
 
 /* carousel */
 
