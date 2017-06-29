@@ -40,3 +40,20 @@ var target = event.target || event.srcElement,
     links = this.getElementsByTagName('a');
 blueimp.Gallery(links, options);
 };
+
+
+// GMAPS
+
+    // var map = new GMaps({
+    //   el: '#map',
+    //   lat: -12.043333,
+    //   lng: -77.028333
+    // });
+
+map.addMarker({
+        lat: 29.961058, 
+        lng: -90.063533,
+        infoWindow: {
+        content: '<p>Lafitte Blacksmith Shop Bar</p>',
+      }
+      });
