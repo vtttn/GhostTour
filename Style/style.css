@@ -59,6 +59,10 @@ body.tour{
 	background: none;
 }
 
+.navbar-inverse .navbar-brand {
+	color: #e6e6e6;
+}
+
 /* Header */
 
 .btn-group-lg>.btn, .btn-lg { 
@@ -403,5 +407,5 @@ div.wysiwyg{
 /* Footer */
 footer{
 	text-align: center;
-	margin-top: 75px;
+	margin-top: 14px;
 }
