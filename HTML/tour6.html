@@ -45,13 +45,13 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tours <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-							<li><a href="Tour1.html">Haunted History</a></li>
-							<li><a href="tour2.html">French Quarter Phantoms</a></li>
-							<li><a href="tour3.html">The Haunted Mortuary</a></li>
-							<li><a href="tour4.html">Bloody Mary Pub Crawl</a></li>
-							<li><a href="tour5.html">Gray Line Ghosts & Spirits</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="tour6.html">Free Tours By-Foot</a></li>
+								<li><a href="Tour1.html" data-toggle="tooltip" data-placement="right" title="Garden District">Haunted History</a></li>
+								<li><a href="tour2.html" data-toggle="tooltip" data-placement="right" title="French Quarter">French Quarter Phantoms</a></li>
+								<li><a href="tour3.html" data-toggle="tooltip" data-placement="right" title="Bayou St. John">The Haunted Mortuary</a></li>
+								<li><a href="tour4.html" data-toggle="tooltip" data-placement="right" title="Bourbon Street">Bloody Mary Pub Crawl</a></li>
+								<li><a href="tour5.html" data-toggle="tooltip" data-placement="right" title="Garden District">Gray Line Ghosts & Spirits</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="tour6.html" data-toggle="tooltip" data-placement="right" title="Locations Vary">Free Tours By-Foot</a></li>
 							</ul>
 						</li>
 						<li><a href="photo_gallery.html">Photo Gallery</a></li>
@@ -157,6 +157,13 @@
 			});
 			
 
+		</script>
+
+		<!-- tooltips -->
+		<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip(); 
+		});
 		</script>
 
 	</body>

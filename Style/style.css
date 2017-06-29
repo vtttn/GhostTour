@@ -452,3 +452,9 @@ footer{
     width: 100%;
     height: 500px;
 }
+
+/* Tooltips */
+ .tooltip  {
+    display: inline-block;
+    width: 150px;
+  }
